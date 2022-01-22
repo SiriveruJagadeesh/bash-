@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# purpose : to use the if ten conditions in bash scripting
+# purpose1 : shows if the error file exists in the directory or not
+# author : jagath
+# creation date : 22 jan 2022
+
+clear
+if [ -e /root/bash/error.sh ]
+then
+echo " this file exists"
+else 
+echo " this file does not exits"
+fi
